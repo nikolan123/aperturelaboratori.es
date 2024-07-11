@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>niko's webpage</title>
+    <style>
+body {
+    color: #60bbe8;
+    background-color: #0b0b0b;
+    padding: 10px;
+    padding-top: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 5px rgba(96, 187, 232, 0.8);
+    background-image: linear-gradient(0deg, rgba(11, 11, 11, 0.8) 50%, rgba(11, 11, 11, 0.2) 50%);
+    background-size: 100% 4px;
+    background-repeat: repeat;
+}
+
+a {
+    color: #89cbec;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgba(137, 203, 236, 0.8);
+}
+
+::selection {
+    background: #60bbe8;
+    color: #0b0b0b;
+}
+
+section {
+    border: 2px solid #60bbe8;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+@keyframes crtFlicker {
+    0%, 100% {
+        opacity: 0.97;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: crtFlicker 0.1s infinite;
+}
+
+    </style>
+</head>
+<body>
+    <h1>niko's webpage</h1>
+    <p>hi, i'm niko, <!--a "developer" from bulgaria.-->welcome to my little corner of the internet! my local time is <span id="ltime"></span> (yes, this site has js, deal with it). if you can't tell by my profile picture in most places, i love sand cats &lt;3.</p>
+    <!-- looks out of place
+    <h3>projects</h3>
+    <ul>
+        <li>some of my projects include <a href="https://github.com/nikolan123/orbi">orbi</a>, <a href="https://github.com/nikolan123/rovio-drm-servers">custom rovio activation servers</a>, <a href="https://github.com/nikolan123/nikolans-robot-rewrite">my discord bot</a>, and <a href="https://github.com/nikolan123/aliexpress-discord-embeds">my aliexpress discord embeds bot</a>. most of my stuff is private though. i often start working on something, forget about it, then find it in my documents like a month later and start working on it again, which is bad.</li>
+    </ul>
+    -->
+    <h3>hobbies</h3>
+    <ul>
+        <li>gaming - my favorite games (in no particular order) are portal 1/2, the stanley parable, minecraft, forza horizon 4, and celeste. as of 7/11/2024, i have 80 hours in portal 2</li>
+        <li>programming - i currently know python and a little bit of c++; i'm learning go now</li>
+        <li>computers in general - i like collecting hardware and much more; i currently have over 16 laptops</li>
+        <li>hiking</li>
+    </ul>
+    <h3>contact/socials</h3>
+    <ul>
+        <li>discord - @nikolan (will most likely accept your friend request)</li>
+        <li>steam - /id/nikolan/</li>
+        <li>github - nikolan123</li>
+    </ul>
+    <script>
+        function getBulgariaTime() {
+            const now = new Date();
+            const options = {
+                timeZone: 'Europe/Sofia',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: true // :3
+            };
+            return new Intl.DateTimeFormat('en-US', options).format(now);
+        }
+
+        function updateTime() {
+            document.getElementById('ltime').innerText = getBulgariaTime();
+        }
+
+        updateTime();
+
+        setInterval(updateTime, 1000);
+    </script>
+</body>
+</html>

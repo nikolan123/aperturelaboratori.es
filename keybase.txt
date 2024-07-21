@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/nikolan123
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nikolan.xyz
+  * I am nikolan123 (https://keybase.io/nikolan123) on keybase.
+  * I have a public key with fingerprint 2F0C 2EE4 1F89 30C2 A297  8DE5 ABF7 C08F 4B40 6C2E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b1e4716e6ed6ecb537b1390eb5a964ac91ef16c7159e2c2608d368cc1a1113370a",
+      "fingerprint": "2f0c2ee41f8930c2a2978de5abf7c08f4b406c2e",
+      "host": "keybase.io",
+      "key_id": "abf7c08f4b406c2e",
+      "kid": "0101b1e4716e6ed6ecb537b1390eb5a964ac91ef16c7159e2c2608d368cc1a1113370a",
+      "uid": "1e58fc092c287255c5c4dabb19a31d19",
+      "username": "nikolan123"
+    },
+    "service": {
+      "hostname": "nikolan.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1714159404,
+  "expire_in": 157680000,
+  "prev": "240921311285c93425bdee55b1f531c95f4dc072936636974557d5a4eb6f2baa",
+  "seqno": 2,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIkAnicrZJbSBVBGMePdjO738ywC20Rhbed3Zm9nIekKwRBUVoUwWlmdva4nePu
+8ex6PCqCJpTShaQ07SXowaALRaGgPVRShElkiZkUlFIPUdDlobQLNSv1EPTYvMzM
+N7//f77v47szY0IgPSWRP/q59+je/JTe2y1lATP7Z06VQByjQghWCRE2vrGowVwv
+FLEMISiIQAQEMKgChSnMUBglSFYJkHWREYR1BWKqA2YChaoA6UyikiJqhqxolAIM
+AJBlVcRCjmBadpjFY3HL9ritZIpUYgwCU9NlfsSSrmoGQ5iYKhU1ExIoKpzgwmLH
+9RU8OYJdlmc5PMYvofH0/sH/57zLxu0AQ5pJRZ1jmiohRBGFBiYE6FgGBtB90GVx
+G5cwTttWxIliG0iyUJ0j8HjCosxvrV/L30xesqKSi2Nxx3OoE+UPxZ4Xc4O+0KuI
++WQ5I6HfHiFi2QZvJFckWNy1HFsIAk5Sz/JNgQogLwaKMEdgyZgVZyHLJ5CqaCJf
+/j8s4bcf8lKADICkIarLUELEYAwhAkwkA6ojExpUVCVdVhRZ0VWIkGogDBlRTIlg
+vy8uK7UdISjxNHGYW7pW2MZeWZwJ1d239k0MpKQHJk9K9QcskD519p+x25eZFjjW
+gtesQt8LRpaUPk2YW5oHRj5sP9/QUz2g5LemymdPPoJjoxmba35U97UDfKmx8ERp
+kmXB9z/Ezm2P4Uj56XV3CqeGJ6blNi282xeqFQZevZy8Es5DNee2fni3onVK0aWN
+Ge+Ghru7rycihjaztl+dD1ozNlXuXTTcMDY6q3N6+IHVdj9t/4ZYwcE9yfPL0OeT
+JY27ckn2mxLv6uCBqoILq4vmnmp/PZTqXf7S+63l4Y1pi7t21b0JVXT3Xjly/Iy5
+tkfYObjqSdqc/h0LDrfNmgJeZDbXZ3+9+LH41PflRseC3Kh9uavjbfkzlBU/lHXt
+XsGnpqH1N1/XPY/U765f6nq/ABviPt8=
+=JRBg
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nikolan123
+
+==================================================================
